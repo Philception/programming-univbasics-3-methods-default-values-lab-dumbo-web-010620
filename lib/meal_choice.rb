@@ -1,4 +1,4 @@
-def meal_choice(protein = "meat", veg1, veg2)
+def meal_choice(protein= "meat", veg1, veg2)
   puts "Whether you're omnivorous, vegetarian, or vegan, you're going to be eating a
   nutritious meal!"
   puts "What a nutritious meal!"
