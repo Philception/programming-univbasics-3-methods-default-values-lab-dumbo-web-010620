@@ -8,6 +8,6 @@ end
 
 meal_choice("broccoli", "macaroni", "chicken")
 
-meal_choice("broccoli", "macaroni")
+# meal_choice("broccoli", "macaroni")
 
 "What a nutritious meal!"
