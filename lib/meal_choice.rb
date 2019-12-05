@@ -1,8 +1,10 @@
 def meal_choice(protein = "meat", veg1, veg2)
-
+  puts "Whether you're omnivorous, vegetarian, or vegan, you're going to be eating a
+  nutritious meal!"
   puts "What a nutritious meal!"
-  p "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  return meal_choice "A plate of #{protein} with #{veg1} and #{veg2}."
 end
-meal_choice "A plate of #{protein} with #{veg1} and #{veg2}."
+
 
 meal_choice("broccoli", "macaroni")
