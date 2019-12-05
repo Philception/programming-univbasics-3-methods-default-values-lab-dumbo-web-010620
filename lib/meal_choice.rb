@@ -1,5 +1,5 @@
 def meal_choice(veg1, veg2, protein = "meat")
-  "Whether you're omnivorous, vegetarian, or vegan, you're going to be eating a
+  puts "Whether you're omnivorous, vegetarian, or vegan, you're going to be eating a
   nutritious meal!"
   puts "What a nutritious meal!"
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
